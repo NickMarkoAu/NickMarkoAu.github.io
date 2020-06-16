@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun. 16, 2020, 7:35:38 p.m.
+    Author     : nickm
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.background {
+    position: fixed;
+    left: 0px;
+    botom: 0px;
+    z-index: -9999;
+}
+.name-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #206402;
+}
+.active {
+    background-color: darkslategrey;
+}
