@@ -3,12 +3,16 @@
 .background {
     position: fixed;
     left: 0px;
-    botom: 0px;
+    bottom: 0px;
+    height: 300px;
+    width: auto;
     z-index: -9999;
 }
 .name-header {
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
+    text-decoration: none;
+    color: black;
 }
 .no-link {
     text-decoration: none;
