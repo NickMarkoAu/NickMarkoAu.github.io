@@ -47,3 +47,9 @@ li a:hover {
 .active {
     background-color: darkslategrey;
 }
+.main-content {
+    padding-top: 10px;
+    background-color: white;
+    width: 85%;
+    box-shadow: 5px 5px 8px 10px #888888;
+}
