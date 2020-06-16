@@ -42,10 +42,10 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #206402;
+    background-color: #113301;
 }
 .active {
-    background-color: darkslategrey;
+    background-color: #206402;
 }
 .main-content {
     padding: 40px 40px 40px 40px;
