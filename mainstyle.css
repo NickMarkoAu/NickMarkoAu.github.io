@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .background {
     position: fixed;
     left: 0px;
@@ -57,7 +57,9 @@
     margin-top: 40px;
     margin-bottom: 50px;
 }
-
+body {
+    font-family: 'Raleway', sans-serif;
+}
 p {
     font-family: 'Raleway', sans-serif;
 }
