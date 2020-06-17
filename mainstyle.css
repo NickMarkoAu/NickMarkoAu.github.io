@@ -23,7 +23,7 @@
     font-size: 15px;
     color: white;
 }
-ul .navbar {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,17 +31,17 @@ ul .navbar {
     background-color: black;
     font-family: 'Raleway', sans-serif;
 }
-li .nav-item {
+.nav-item {
     float: left;
 }
-li a .nav-link {
+.nav-link {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a .nav-link:hover {
+.nav-link:hover {
     background-color: #113301;
 }
 .active {
