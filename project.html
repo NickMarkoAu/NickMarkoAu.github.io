@@ -20,7 +20,146 @@
             <li><a class="active" href="project.html"><i class="fas fa-lightbulb icon"></i>&nbsp;Project Idea</a></li>
         </ul>
         <div class="main-content w3-animate-bottom">
-            
+            <h1>Project Idea</h1>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#motivation">Motivation</a></li>
+                <li><a href="#description">Description</a></li>
+                <li><a href="#tools">Tools and Technologies</a></li>
+                <li><a href="#skills">Skills Required</a></li>
+                <li><a href="#outcome">Outcome</a></li>
+            </ul>
+            <h2 id="overview">Overview</h2>
+            <p>
+                Melanoma is the third most common cancer affecting Australians. It can be treated and if done so quickly
+                can prevent further spread. My project idea is to use machine learning trained on a database of skin conditions 
+                that can be used as a triage device to quickly identify the likelihood of a mole being malignant and taking 
+                the correct course of action based upon this. I believe this could be used by nurses and other medical 
+                professionals when deciding whether to order a biopsy and pathology report. This could also be useful 
+                in remote areas where access to dermatologists may be limited. While there are some legal considerations
+                to look at here I believe that if distributed correctly this could be an exceptional tool for identifying 
+                potentially cancerous growths before they spread.
+            </p>
+            <h2 id="motivation">Motivation</h2>
+            <p>
+                In 2020 it is predicted that 15,691 Australians will be diagnosed with some form of melanoma and between 2010 and 2014
+                there were 55,128 diagnosed with this form of cancer. While some moles can be determined malignant or benign by a general
+                practitioner simply looking at them, many doctors will refer patients to a dermatologist before ordering an invasive 
+                biopsy and pathology report. If it was possible for a computer to determine the likelihood of this biopsy returning a 
+                positive result by analyzing the image using machine learning after having been trained by hundreds of thousands of 
+                images and diagnoses this could save valuable time and resources for the medical industry and their patients. 
+            </p>
+            <center>
+                <img src="imgs/melanoma.PNG" style="width: 45%" alt="melanoma statistic">
+            </center>
+            <h2 id="description">Description</h2>
+            <p>           
+                Fortunately this is currently possible with technology that is already available. There is currently already an 
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091241/">enormous 
+                    database </a>of these sorts of conditions which could be used to train the machine learning algorithm. This could be done 
+                with some creative software development and would simply work as an android application. All that would be required is 
+                an android device with a camera to give a percentage of likelihood result with a simple point and click of the devices 
+                camera. 
+            </p>
+            <p>
+                The features of this app would be incredibly simple to use and could be distributed in two different formats. 
+                A consumer format of this application could simply be used for people to send images off to a medical professional 
+                who could then use the medical format of the application to analyse the image as well as their own eye to determine 
+                whether a patient should come in for a biopsy. This would be vastly beneficial to those living in remote areas who are 
+                not always able to see a doctor face to face. This could also track any potential growth of a mole over time by taking 
+                multiple photographs at set increments. This could prevent a huge number of melanoma that is currently going undiagnosed
+                all over the world and could make sure that at risk people can catch these conditions before they have spread, 
+                while they are at their most treatable stage.
+            </p>
+            <p>
+                The patient side of the application would consist of a basic menu to get in touch with a medical professional and submit
+                an image or a series of images. It would use push notifications to prompt the user to take another photo at set intervals. 
+                The patient could also schedule appointments with medical professionals around the world to diagnose the skin condition 
+                to its fullest extent and then treat it. This would put thousands more in touch with doctors.
+            </p>
+            <center>
+                <img src="imgs/example.png" style="height: 350px;" alt="example app image">
+            </center>
+            <p>
+                The medical professional side of the application would send the participating doctor the image with an analysis by the 
+                artificial intelligence. This would be in form of a percentage of match to a malignant skin tumour. The doctor could then
+                analyse the image further and either make a decision on the spot, schedule an appointment with the patient or request more
+                images. Once a diagnosis is made the doctor would record the data in the app which would continue to train the AI model.
+            </p>
+            <p>
+                I believe it is important that the AI analysis be only offered to a doctor as there could be legal implications of people 
+                not being treated based on a misdiagnosis of a mole. This could be for a number of reasons such as the image being too blurry
+                to identify. A trained human eye would also be required in the work flow of a diagnosis using this application. 
+                This is why the app would have be used simply as a triage aid for doctors rather than a fully customer facing app that 
+                would diagnosis the condition for you. It is not intended to replace the human component of this process just simply as an aid.
+            </p>
+            <h2 id="tools">
+                Tools and Technologies
+            </h2>
+            The tools required for this job would be as follows:
+            <ul>
+                <li>
+                    <b>Weka:</b> This is a fantastic AI/ML training tool created by a university in New Zealand that allows for you to make a 
+                    detailed aritificial intelligence model by training it on a data set and then testing it with another dataset. 
+                    You are required to have the expected results for this to work.
+                </li>
+                <li>
+                    <b>JavaML:</b> This is a Java library that can be used with the above results to apply the AI model to new data. 
+                    This would work with Android applications considering they are written in Java
+                </li>
+                <li>
+                    <b>Java: </b>Of course to program android apps Java or Kotlin is the current go to language. This is why would I would 
+                    suggest to be used for this as there are a number of AI/ML tools that work with Java as well.
+                </li>
+                <li><b>Android/Android Studio: </b>The operating system and IDE that this would initially run on/ be built with.
+                </li>
+            </ul>
+            <h2 id="skills">
+                Skills Required
+            </h2>
+            Some of the skills required would be:
+            <ul>
+                <li>
+                    Medical professional to advise the best way to design the app and make it as useful as possible end devise the
+                    best way to get doctors to adopt the app.
+                </li>
+                <li> 
+                    Legal professional to ensure professional indemnification against the potential legal issues of the app.
+                </li>
+                <li>
+                    A strong understanding of artificial intelligence and machine learning. There are a number of professionals 
+                    in this field now and the amount of knowledge available online in this specialty is enormous. I have had 
+                    success in training an AI model to recognize new images of cats and dogs. While this would require a much 
+                    larger data set due to the intricacy I believe it is achievable.
+                </li>
+                <li>
+                    Software development skills with Android and Java. This is something that I am capable of and use at work daily.
+                    While we are becoming potentially more rare with emerging languages taking over we still exist!
+                </li>
+                <li>
+                    UI/UX Design skills. There would need to be two easy to use user interfaces to make this app successful
+                </li>
+                <li>
+                    Database/ Big Data knowledge. Large amounts of sensitive data would need to be handled. This would have
+                    to be done perfectly.
+                </li>
+                <li>
+                    Security professional: while it may seem like a despicable thing to do there is the potential for something 
+                    like this to be hacked. It would need to be air tight.
+                </li>
+            </ul>
+            <h2 id="outcome">
+                Outcome
+            </h2>
+            <p>
+                The outcome of this would be an amazing tool that could be used by medical professionals and patients internationally. 
+                This could dramatically increase the early detection rate of this potentially deadly cancer that affect so many of 
+                our loved ones. This would be a not for profit endeavour and could result in lives saved all over the world. It would 
+                require early adoption by some medical professionals however there is nothing like this on the market and I believe 
+                it would be welcomed with open arms. The app would be availble for free download by patients on the app store and 
+                the professional version of the app would be distributed as an apk package to the participating doctors. Technology
+                can help the world in so many ways and wherever possible it should!
+            </p>
         </div>
     </body>
 </html>
