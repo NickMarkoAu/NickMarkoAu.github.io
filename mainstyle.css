@@ -62,21 +62,10 @@ body {
 }
 p {
     font-family: 'Raleway', sans-serif;
-}
-h1 {
-    font-family: 'Oswald', sans-serif;
-}
-h2 {
-    font-family: 'Oswald', sans-serif;
-}
-h3 {
-    font-family: 'Oswald', sans-serif;
-}
-h4 {
-    font-family: 'Oswald', sans-serif;
-}
-p{
     color: darkslategrey;
+}
+h1, h2, h3, h4, li {
+    font-family: 'Oswald', sans-serif;
 }
 .button {
     background-color: #113301; /* Green */
