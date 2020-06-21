@@ -60,13 +60,15 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-p {
+p ,li {
     font-family: 'Raleway', sans-serif;
     color: darkslategrey;
+
 }
-h1, h2, h3, h4, li {
+h1, h2, h3, h4 {
     font-family: 'Oswald', sans-serif;
 }
+
 .button {
     background-color: #113301; /* Green */
     border: none;
